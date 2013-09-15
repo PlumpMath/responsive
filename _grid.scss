@@ -80,7 +80,7 @@ $medium: 720px;
     float: right;
 }
 
-.column-box:after {
+[class*='box']:after {
     content: "";
     display: table;
     clear: both;
