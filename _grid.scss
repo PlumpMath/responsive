@@ -69,6 +69,10 @@ $medium: 720px;
 
 /* GRID */
 
+[class*='placeholder'] {
+    height: 1px;
+}
+
 [class*='fit-'] {
     float: left;
     width: 100%;
