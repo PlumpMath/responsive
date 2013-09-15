@@ -1,0 +1,105 @@
+[class*='fit-'] {
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class*='fit-']:last-of-type {
+  float: right; }
+
+.column-box:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 720px) {
+  .column-fit-2 {
+    width: 50%; } }
+
+@media only screen and (min-width: 960px) {
+  .column-fit-3 {
+    width: 33%; } }
+
+@media only screen and (min-width: 720px) {
+  .column-fit-4 {
+    width: 50%; } }
+@media only screen and (min-width: 1080px) {
+  .column-fit-4 {
+    width: 25%; } }
+
+*, *:before, *:after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: .875em; }
+
+/*
+
+		DEBUG
+
+/**/
+body {
+  background: url("../imgs/base_line_grid.png");
+  background: #eee; }
+
+/**/
+.column-content {
+  border-radius: 2px;
+  color: #888;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.143rem;
+  margin-top: 1px;
+  margin-bottom: -1px; }
+
+.title {
+  color: #444;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.4286rem;
+  line-height: 3.429rem;
+  margin-top: 3px;
+  margin-bottom: -3px; }
+
+.subtitle {
+  margin: auto;
+  max-width: 40rem;
+  text-align: center;
+  font-size: 1.2857rem;
+  line-height: 2.286rem;
+  margin-top: 7px;
+  margin-bottom: -7px;
+  padding-bottom: 1.143rem; }
+
+.section-title {
+  color: #444;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2.286rem;
+  margin-top: 6px;
+  margin-bottom: -6px;
+  padding-bottom: 1.143rem; }
+
+.section-content {
+  text-indent: 1.143rem;
+  font-size: 1rem;
+  line-height: 1.143rem;
+  margin-top: 1px;
+  margin-bottom: -1px;
+  padding-right: 1.143rem; }
+
+.column-box, .header {
+  color: #888;
+  font-family: Oxygen, Arial, sans-serif;
+  margin: 9.143rem auto 2.286rem auto;
+  width: 75%; }
+
+/**/
